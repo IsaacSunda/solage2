@@ -1,0 +1,13 @@
+{%  extends 'base.html' %}
+
+{% block content %}
+{% if searched %}
+    <h1>You Searched for {{searched}}</h1>
+    
+    {% for student in school %}
+        <a href="{% url 'formdetail' student.pk %}"<h3>{{student.First_Name}} {{student.surname}}</h3>
+    {% endfor %}
+{% endif %}
+
+
+{% endblock %}

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+
+h5 {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    color: red;
+}
+
+div {
+    background-color: rgba(0, 17, 255, 0.418);
+    color: rgba(255, 255, 255, 0.705);
+    text-align: center;
+}
+
+
