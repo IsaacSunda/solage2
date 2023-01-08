@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "school.apps.SchoolConfig",
-    "phonenumber_field",
+#     "phonenumber_field",
     "accounts.apps.AccountsConfig",
 ]
 
