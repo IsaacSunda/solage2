@@ -33,11 +33,11 @@ SECRET_KEY = "django-insecure-nmlzf(i23-=1409t$(-ise5u7^&7^eu4nw5p64uu*t_a+1+#jv
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 
-# ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 DEBUG = os.getenv('DEBUG', '0').lower() in ['true', 't', '1']
 
-ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(' ')
+# ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS').split(' ')
 
 DATABASES = {
     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'), conn_max_age=600),
