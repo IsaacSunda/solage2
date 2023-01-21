@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 gunicorn==20.1.0
 dj-database-url==1.2.0
 psycopg2-binary==2.9.5
 python-dotenv==0.21.0
 phonenumber_field==8.12.56
 Pillow==9.2.0
+=======
+gunicorn==20.1.0
+dj-database-url==1.2.0
+psycopg2-binary==2.9.5
+python-dotenv==0.21.0
+phonenumbers==8.12.56
+Pillow==9.2.0
+django-phonenumber-field==7.0.1
+Django==4.1
+>>>>>>> 4523b0b9d6acebc1790cb042edb7068399f0aa4e
